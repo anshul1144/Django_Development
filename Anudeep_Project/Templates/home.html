@@ -1,14 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>homepage</title>
 </head>
 <body>
-    {% include 'navigation.html' %}
-    <h1>Welcome to the Home Page</h1>
-    <p>This is a simple home page for demonstration purposes.</p>
+    {% include "navigations.html" %}
+    <h1>Welcome to our page.</h1>
 
+    {% if id == 101 %}
+        <h2>User: {{name}}</h2>
+        <h2>ID: {{id}}</h2>
+
+        <h2>Projects:</h2>
+        {% for project in projects %}
+            {{project}} <br>
+        {% endfor %}
+    {% endif %}
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi molestias sunt ipsum facilis nobis, quo dolorum error qui optio eius magnam doloremque. Quo aut exercitationem accusamus, hic ipsum praesentium animi.</p>
+    <p>Autem odio quibusdam illo eligendi accusamus architecto. Nesciunt perspiciatis minus omnis quae possimus quas corporis architecto, laudantium facilis quo nam velit expedita dolorum cum quos sunt accusantium officiis harum rerum?</p>
+    <p>Beatae magni eos quasi sunt blanditiis, minima, voluptas fuga ipsum illo, ratione sed nostrum vitae facere perspiciatis recusandae sint aperiam minus saepe porro et suscipit eum. Iste ipsa dolores quo!</p>
 </body>
 </html>
