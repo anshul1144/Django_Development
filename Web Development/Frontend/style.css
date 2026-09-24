@@ -1,0 +1,236 @@
+#btn1{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: all 0.3s;
+
+
+    width: 315px;
+    height: 68px;
+    border-radius: 40px;
+    align-items: center;
+    padding: 0 22px;
+    gap: 18px;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+
+}
+
+#btn1:active{
+    background-color: rgb(208, 9, 72);
+    color: white;
+}
+
+.tweet-button{
+    width: 315px;
+    height: 68px;
+    background-color: white;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    color: skyblue;
+    padding: 15px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+
+.linkedin-btn {
+    width: 315px;
+    height: 68px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    gap: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-bottom: 26px;
+}
+
+/* LinkedIn Icon */
+.linkedin-icon {
+    width: 30px;
+    height: 30px;
+    background: white;
+    color: #0a66c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+/* Blue Button */
+.blue {
+    background-color: #0a66c2;
+    color: white;
+    border: 2px solid #0a66c2;
+}
+
+/* Outline Button */
+.outline {
+    background-color: white;
+    color: #0a66c2;
+    border: 2px solid #0a66c2;
+}
+
+.outline .linkedin-icon {
+    background-color: #0a66c2;
+    color: white;
+}
+
+/* Dark Button */
+.dark {
+    background-color: #404040;
+    color: white;
+    border: 2px solid #404040;
+}
+
+.dark .linkedin-icon {
+    color: #404040;
+}
+
+/* Hover Effect */
+.linkedin-btn:hover {
+    opacity: 0.9;
+}
+
+
+/* GitHub Button */
+.github-btn {
+    width: 610px;
+    height: 110px;
+
+    background-color: #24292e;
+    color: white;
+
+    border: 2px solid #555;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 46px;
+    font-weight: normal;
+
+    cursor: pointer;
+}
+
+.github-btn img {
+    width: 65px;
+    height: 65px;
+
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+
+/* Google Button */
+.google-btn {
+    width: 610px;
+    height: 105px;
+
+    background-color: #4285f4;
+    color: white;
+
+    border: 2px solid #4285f4;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 46px;
+    font-weight: normal;
+
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 100px;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 30px;
+}
+
+.google-icon img {
+    width: 55px;
+    height: 55px;
+}
+
+
+/* Hover Effects */
+
+.github-btn:hover {
+    background-color: #333;
+}
+
+.google-btn:hover {
+    background-color: #357ae8;
+}
+
+body {
+  background: #eee;
+  font-family: Arial, sans-serif;
+}
+
+.popup {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto; 
+}
+
+.header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-start; /* Image ko heading ke top se align karne ke liye */
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0; 
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 12px; /* Heading aur paragraph ke beech ka gap kam kiya */
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%; 
+  padding: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.black-btn {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.white-btn {
+  background: white;
+  color: black;
+  border: 1px solid gray;
+}
